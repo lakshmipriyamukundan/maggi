@@ -1,84 +1,84 @@
 export = {
-	"404": {
-		code: 'E100',
-		message: "Sorry, the page you are trying to access does not exist on this server."
-	},
-	"401": {
-		code: 'E101',
-		message: "Access is denied due to invalid credentials."
-	},
-	"500": {
-		code: 'E102',
-		message: "Internal server error."
-	},
-	"400": {
+	400: {
 		code: 'E103',
-		message: "Bad request. The request could not be understood by the server due to malformed syntax."
+		message:
+			'Bad request. The request could not be understood by the server due to malformed syntax.',
 	},
-	"save-true": {
+	401: {
+		code: 'E101',
+		message: 'Access is denied due to invalid credentials.',
+	},
+	404: {
+		code: 'E100',
+		message:
+			'Sorry, the page you are trying to access does not exist on this server.',
+	},
+	500: {
+		code: 'E102',
+		message: 'Internal server error.',
+	},
+	saved: {
 		code: 'E104',
-	    message: "Record has been successfully saved."
+		message: 'Record has been successfully saved.',
 	},
-	"save-false": {
+	notSaved: {
 		code: 'E105',
-	    message: "Save operation failed."
+		message: 'Save operation failed.',
 	},
-	"update-true": { 
+	updated: {
 		code: 'E106',
-		message: "Record has been successfully updated."
+		message: 'Record has been successfully updated.',
 	},
-	"update-false": { 
+	notUpdated: {
 		code: 'E107',
-		message: "Update operation failed."
+		message: 'Update operation failed.',
 	},
-	"delete-true": { 
+	deleted: {
 		code: 'E108',
-		message: "Record has been successfully deleted."
+		message: 'Record has been successfully deleted.',
 	},
-	"delete-false": { 
+	notDeleted: {
 		code: 'E109',
-		message: "Delete operation failed."
+		message: 'Delete operation failed.',
 	},
-	"emailExisting": {
+	emailExisting: {
 		code: 'E110',
-		message: "The email address you have entered is already registered."
+		message: 'The email address you have entered is already registered.',
 	},
-	"registered": {
+	registered: {
 		code: 'E111',
-		message: "You have successfully registered and logged in."
+		message: 'You have successfully registered and logged in.',
 	},
-	"loginSuccess": {
+	loginSuccess: {
 		code: 'E112',
-		message: "You are successfully logged in."
+		message: 'You are successfully logged in.',
 	},
-	"loginFail": {
+	loginFail: {
 		code: 'E113',
-		message: "The username or password you entered is incorrect."
+		message: 'The username or password you entered is incorrect.',
 	},
-	"passwordMismatch": {
+	passwordMismatch: {
 		code: 'E114',
-		message: "Passwords don't match. Please retype. "
+		message: 'Passwords don\'t match. Please retype. ',
 	},
-	"otpTimeOut": {
+	otpTimeOut: {
 		code: 'E115',
-		message: "The submitted one-time password is not valid."
+		message: 'The submitted one-time password is not valid.',
 	},
-	"otpMismatch": {
+	otpMismatch: {
 		code: 'E116',
-		message: "The submitted one-time password is not correct."
+		message: 'The submitted one-time password is not correct.',
 	},
-	"otpMatched": {
+	otpMatched: {
 		code: 'E117',
-		message: "OTP matched successfully."
+		message: 'OTP matched successfully.',
 	},
-	"invalidParams": {
+	invalidParams: {
 		code: 'E118',
-		message: "Invalid parameters detected."
+		message: 'Invalid parameters detected.',
 	},
-	"success" : {
-		code : 'E119',
-		message : 'Success'
-	}
-	
-
-}
+	success: {
+		code: 'E119',
+		message: 'Success',
+	},
+};

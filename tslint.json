@@ -18,6 +18,7 @@
 		"no-debugger": true,
 		"no-duplicate-variable": true,
 		"no-empty": true,
+		"object-literal-sort-keys": false,
 		"no-inferrable-types": true,
 		"no-internal-module": true,
 		"no-shadowed-variable": true,
