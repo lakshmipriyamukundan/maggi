@@ -1,10 +1,12 @@
 import {expect} from 'chai';
-import add from '../src/index';
+import maggi = require('../src/index');
 
-describe('Testing addition', ()=>{
-    it('returns 11 for 3,8', done=>{
-        let p = add(3,8);
-        expect(p).to.equal(11)
+describe('Testing message generation', ()=>{
+    it('get response for login passed', done=>{
+        let msg = maggi.loginSuccess.message;
+        //console.log(msg);
+        expect(msg).not.to.be.null;
+        expect(msg).not.to.be.undefined;
         done();
-    })
-})
+    });
+});
